@@ -1,0 +1,133 @@
+#name{
+    box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff;
+    padding: 14px;
+    border: 0.5px solid rgb(129, 127, 127);
+    display: grid;
+   
+   
+    
+}
+
+#NavBar{
+    display: flex;
+    justify-content: space-between;
+    /* background: rgb( 237, 237, 237, .1);
+    backdrop-filter: blur(10px); */
+    margin-bottom: 34.6px; 
+    
+}
+
+.NS{
+    margin-top: 50px;
+    cursor: pointer;
+    height: 20px;
+}
+
+/* div:hover a:not(:hover){
+    opacity: .7;
+    transform: scale(.85)
+} */
+
+#Intro{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+/* #edu{
+ 
+} */
+
+#profilephoto{
+    box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff;
+    border: 1px solid;
+    
+}
+
+#Intro1,#skill,#edusty,#about{
+    padding-bottom:14px ;
+    padding-top: 14px;
+    text-align: center;
+    box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff;
+    border: 0.5px solid rgb(129, 128, 128);
+}
+
+#edu1{
+    padding-bottom:14px ;
+    padding-top: 14px;
+    style:"box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff"
+}
+.eduItem{
+    display: flex;
+      justify-content: space-between;
+      width: 95vw;
+}
+
+/* #edusty{
+    padding-bottom:14px ;
+    padding-top: 14px;
+    text-align: center;
+} */
+
+/* #ssc,#hsc,#b-tech{
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: auto auto auto;
+    background: #babecc;
+    width: 100vw;
+    margin-left: 60px;
+
+
+} */
+
+
+.sI{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    
+    grid-gap:1px;
+}
+
+.item, .itemgs{
+    /* background-color:  #babecc; */
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.gskill{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    
+    grid-gap:1px;
+}
+
+.itemgs{
+    box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff;
+}
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
