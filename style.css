@@ -25,6 +25,9 @@ body{
   margin-top: 50px;
   cursor: pointer;
   height: 20px;
+  /* background-color: #111315; */
+  background-color: aliceblue; 
+  color: black;
 }
 
 /* div:hover a:not(:hover){
@@ -41,7 +44,7 @@ body{
 #profilephoto,
 #proimage {
   /* box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff; */
-  border: 1px solid;
+  border-radius: 100%;
 }
 
 .sty {
@@ -125,6 +128,7 @@ body{
     /* background: rgb( 237, 237, 237, .1);
       backdrop-filter: blur(10px); */
       margin-right: 10%;
+      
   }
 
   #info{
@@ -144,16 +148,27 @@ body{
   }
 
   #footer{
+   
     text-align: left;
     background-color: #2A86ff;
+    margin-bottom: 34.6px;
     /* box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff; */
   }
 
   #footIcon{
     display: flex;
     justify-content: right;
+    cursor: pointer;
+   
   }
 
   #footimg{
     /* box-shadow: 10px 10px 20px #babecc; */
+    height: 40px;
+    border-radius: 100%;
   }
+
+.fi{
+  display: flex;
+  justify-content: left;
+}
