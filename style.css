@@ -18,10 +18,14 @@ body{
 #NavBar {
   display: flex;
   justify-content: space-between;
+  height: 20%;
   /* background: rgb( 237, 237, 237, .1);
     backdrop-filter: blur(10px); */
-  margin-bottom: 34.6px;
-  /* background-color: #30353C; */
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  background-color: #2A86ff;
+
 }
 
 .NS {
@@ -117,7 +121,8 @@ body{
   padding-top: 14px;
   text-align: center;
   /* box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff; */
-  
+  margin-top: 0px;
+  margin-bottom: 0px;
   background-color: #2A86ff;
 }
 
