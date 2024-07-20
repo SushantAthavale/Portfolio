@@ -11,17 +11,19 @@ body{
    */
   
    font-family: 'Poppins', sans-serif;
-   margin-top: 40px;
+   margin-top: 25px;
    margin-left: 20px;
 }
 
 #NavBar {
   display: flex;
   justify-content: space-between;
-  height: 20%;
+  height: 20vh;
   /* background: rgb( 237, 237, 237, .1);
     backdrop-filter: blur(10px); */
   position: fixed;
+  padding: 0px;
+  top: 0px;
   left: 0px;
   right: 0px;
   background-color: #2A86ff;
@@ -29,7 +31,8 @@ body{
 }
 
 .NS {
-  margin-top: 50px;
+  margin-top: 37px;
+  margin-bottom: 25px;
   cursor: pointer;
   height: 20px;
   /* background-color: #111315; */
