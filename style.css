@@ -33,13 +33,12 @@ body{
 .NS {
   margin-top: 22px;
   cursor: pointer;
-  height: 20px;
   font-family: Century Gothic;
   /* background-color: #111315; */
   /* background-color: #2A86ff;  */
   color: rgb(255, 255, 255);
   margin-bottom: 21.44;
-
+  font-size: 11.6px;
   
 }
 
@@ -48,24 +47,20 @@ body{
   text-decoration: none;
   padding: 0 20px;
   letter-spacing: 0.5px;
-  position: relative;
   transition: 0.2s;
 
 }
 
 .NS::after {
   content: " ";
-  position: absolute;
   left: 0;
-  bottom: -5px;
   width: 0%;
-  height: 2px;
   background-color: #0F67B1;
   transition: all 0.5s ease-out;
 }
 .NS:hover {
   color: #ffffff;
-  font-weight:  600;
+  font-size:  medium;
   
 }
 .NS:hover:after {
@@ -93,6 +88,7 @@ body{
 }
 .itemgs:hover {
   background-color: #2A86ff;
+  font-size: x-large;
 }
 .itemgs:hover:after {
   width: 100%;
@@ -239,7 +235,7 @@ body{
    
     text-align: left;
     background-color: #2A86ff;
-    margin-bottom: 34.6px;
+    margin-bottom: 10px;
     /* box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff; */
   }
 
@@ -280,6 +276,8 @@ body{
   display: flex;
   justify-content: space-between;
 }
+
+
 
 
 
