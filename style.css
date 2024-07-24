@@ -67,34 +67,6 @@ body{
   width: 100%;
 }
 
-.itemgs{
-  color: #ffffff;
-  text-decoration: none;
-  padding: 0 20px;
-  letter-spacing: 0.5px;
- 
-  transition: 0.2s;
-}
-
-.itemgs::after {
-  content: " ";
-  left: 0;
-  bottom: -5px;
-  width: 0%;
-  height: 2px;
-  background-color: #ffffff;
-  transition: 0.3s linear;
-}
-.itemgs:hover {
-  background-color: #2A86ff;
-  font-size: x-large;
-}
-.itemgs:hover:after {
-  width: 100%;
-}
-
-
-
 /* div:hover a:not(:hover){
     opacity: .7;
     transform: scale(.85)
@@ -246,10 +218,17 @@ body{
    
   }
 
+ 
+
   #footimg{
     /* box-shadow: 10px 10px 20px #babecc; */
     height: 40px;
-    border-radius: 100%;
+    border-radius: 10%;
+    transition: 0.3s;
+  }
+
+  #footimg:hover{
+      border-radius: 100%;
   }
 
   
